@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3566659413298233816, guid: 718cac0bf6a822f44bb1152d16c42caf, type: 3}
       propertyPath: m_Name
-      value: Snow (1)
+      value: Snow (1) Variant
       objectReference: {fileID: 0}
     - target: {fileID: 4491208767474863433, guid: 718cac0bf6a822f44bb1152d16c42caf, type: 3}
       propertyPath: m_RootOrder
