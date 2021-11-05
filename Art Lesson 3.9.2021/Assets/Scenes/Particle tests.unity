@@ -161,7 +161,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10308, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: cd2c6783390d2f347ab2b380e2a06980, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5552,7 +5552,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!199 &1419771712
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -10698,6 +10698,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2160655269763414454, guid: 718cac0bf6a822f44bb1152d16c42caf, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cd2c6783390d2f347ab2b380e2a06980, type: 2}
     - target: {fileID: 3566659413298233816, guid: 718cac0bf6a822f44bb1152d16c42caf, type: 3}
       propertyPath: m_Name
       value: Snow
@@ -10755,10 +10759,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1120728663927452086, guid: 192044aa6654f324b8dc08b0a6d58134, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cd2c6783390d2f347ab2b380e2a06980, type: 2}
     - target: {fileID: 3444629013230159779, guid: 192044aa6654f324b8dc08b0a6d58134, type: 3}
       propertyPath: m_Name
       value: BaseFlame
       objectReference: {fileID: 0}
+    - target: {fileID: 3549643207062702612, guid: 192044aa6654f324b8dc08b0a6d58134, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cd2c6783390d2f347ab2b380e2a06980, type: 2}
     - target: {fileID: 4207300139763038877, guid: 192044aa6654f324b8dc08b0a6d58134, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -10803,5 +10815,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5637938716817741414, guid: 192044aa6654f324b8dc08b0a6d58134, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cd2c6783390d2f347ab2b380e2a06980, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 192044aa6654f324b8dc08b0a6d58134, type: 3}
